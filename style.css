@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100&family=Mulish:wght@500&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    height: 1080vh;
+}
+
+span{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-left: 17px;
+}
+
+input{
+    background-color: black;
+    outline: grey solid 1px;
+    width: 28%;
+    color: white;
+    padding: 8px;
+    margin: 20px;
+}
+
+#addStudent{
+    margin: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+#editStudent{
+    display: none;
+    margin: 20px;
+    padding: 8px;
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+#search{
+    width: 96%;
+    margin-bottom: 40px;
+}
+
+table{
+    width: 96%;
+    margin-left: 20px;
+}
+
+table{
+    border: solid 1px white;
+}
+
+thead td{
+    padding: 18px;
+    border-bottom: 1px solid #fff;
+}
+tbody td{
+    padding: 16px;
+    border-collapse: collapse;
+    /* border: solid 1px white; */
+}
+
+img{
+    background-color: white;
+    width: 20px;
+    margin: 3px 5px;
+    float: right;
+}
+
+
+td{
+    padding-left: 5px;
+    border-right: solid 1px white;
+}
